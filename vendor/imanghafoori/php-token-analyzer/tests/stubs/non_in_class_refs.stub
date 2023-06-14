@@ -1,0 +1,6 @@
+<?php
+
+use App\Model;
+
+Model\User;
+function (H $r) { T::class; }
