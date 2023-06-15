@@ -3,6 +3,11 @@
 /public/storage
 /storage/*.key
 /vendor
+node_modules
+public/hot
+public/storage
+storage/*.key
+vendor
 .env
 /public/assets/img/
 database/migrations/
