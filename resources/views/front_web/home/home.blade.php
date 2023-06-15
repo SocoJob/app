@@ -404,7 +404,7 @@ En este buscador podrás encontrar todas las ofertas de trabajo de socorrismo, t
                                                             <h4 class="mb-0">{{ html_entity_decode( Str::limit($plan['name'], 50, '...') ) }}</h4>
                                                             <div class="card-body-top text-center d-flex justify-content-center">
                                                                 <h3 class="text-primary"> {{empty($plan['salaryCurrency']->currency_icon)?'$':$plan['salaryCurrency']->currency_icon}}{{ $plan['amount'] }} </h3>
-                                                                <span class="text-gray mt-xl-4 mt-sm-3 mt-2 ms-1"> / @if($plan['interval']=='year') Anual @else _('web.web_home.monthly') @endif</span>
+                                                                <span class="text-gray mt-xl-4 mt-sm-3 mt-2 ms-1"> / @if(array_key_exists('interval',$plan) && $plan['interval']=='year') Anual @else _('web.web_home.monthly') @endif</span>
                                                             </div>
                                                             <div class="card-body-bottom">
                                                                 <div class="text d-flex align-items-center justify-content-center my-4">
