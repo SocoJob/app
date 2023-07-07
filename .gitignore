@@ -24,3 +24,5 @@ lang.zip
 tests
 resources/views/front_web/layouts/footer2.blade.php
 /vendor/
+.DS_Store
+/storage/
