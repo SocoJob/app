@@ -3498,3 +3498,252 @@ Content-Transfer-Encoding: quoted-printable
 #104 /Users/fjalonsoo/Library/CloudStorage/GoogleDrive-moreno84@gmail.com/Unidades compartidas/SocoJob aplicación/5. GitContent/server.php(21): require_once('/Users/fjalonso...')
 #105 {main}
 "} 
+[2023-07-07 14:05:54] local.ERROR: include(/var/www/vhosts/socojob.com/app.socojob.com/vendor/composer/../symfony/translation/CatalogueMetadataAwareInterface.php): Failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): include(/var/www/vhosts/socojob.com/app.socojob.com/vendor/composer/../symfony/translation/CatalogueMetadataAwareInterface.php): Failed to open stream: No such file or directory at /var/www/vhosts/socojob.com/app.socojob.com/vendor/composer/ClassLoader.php:576)
+[stacktrace]
+#0 /var/www/vhosts/socojob.com/app.socojob.com/vendor/composer/ClassLoader.php(576): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /var/www/vhosts/socojob.com/app.socojob.com/vendor/composer/ClassLoader.php(576): include()
+#2 /var/www/vhosts/socojob.com/app.socojob.com/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}()
+#3 /var/www/vhosts/socojob.com/app.socojob.com/vendor/symfony/translation/MessageCatalogue.php(20): Composer\\Autoload\\ClassLoader->loadClass()
+#4 /var/www/vhosts/socojob.com/app.socojob.com/vendor/composer/ClassLoader.php(576): include('...')
+#5 /var/www/vhosts/socojob.com/app.socojob.com/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}()
+#6 [internal function]: Composer\\Autoload\\ClassLoader->loadClass()
+#7 /var/www/vhosts/socojob.com/app.socojob.com/vendor/symfony/translation/Translator.php(29): class_exists()
+#8 /var/www/vhosts/socojob.com/app.socojob.com/vendor/composer/ClassLoader.php(576): include('...')
+#9 /var/www/vhosts/socojob.com/app.socojob.com/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}()
+#10 [internal function]: Composer\\Autoload\\ClassLoader->loadClass()
+#11 /var/www/vhosts/socojob.com/app.socojob.com/vendor/nesbot/carbon/src/Carbon/Translator.php(22): ReflectionMethod->__construct()
+#12 /var/www/vhosts/socojob.com/app.socojob.com/vendor/composer/ClassLoader.php(576): include('...')
+#13 /var/www/vhosts/socojob.com/app.socojob.com/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}()
+#14 /var/www/vhosts/socojob.com/app.socojob.com/vendor/nesbot/carbon/src/Carbon/Traits/Localization.php(701): Composer\\Autoload\\ClassLoader->loadClass()
+#15 /var/www/vhosts/socojob.com/app.socojob.com/vendor/nesbot/carbon/src/Carbon/Traits/Localization.php(738): Carbon\\Carbon::translator()
+#16 /var/www/vhosts/socojob.com/app.socojob.com/vendor/nesbot/carbon/src/Carbon/Traits/Localization.php(492): Carbon\\Carbon::getLocaleAwareTranslator()
+#17 /var/www/vhosts/socojob.com/app.socojob.com/vendor/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php(69): Carbon\\Carbon::setLocale()
+#18 /var/www/vhosts/socojob.com/app.socojob.com/vendor/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php(45): Carbon\\Laravel\\ServiceProvider->updateLocale()
+#19 /var/www/vhosts/socojob.com/app.socojob.com/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Carbon\\Laravel\\ServiceProvider->boot()
+#20 /var/www/vhosts/socojob.com/app.socojob.com/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#21 /var/www/vhosts/socojob.com/app.socojob.com/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#22 /var/www/vhosts/socojob.com/app.socojob.com/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#23 /var/www/vhosts/socojob.com/app.socojob.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call()
+#24 /var/www/vhosts/socojob.com/app.socojob.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(924): Illuminate\\Container\\Container->call()
+#25 /var/www/vhosts/socojob.com/app.socojob.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(905): Illuminate\\Foundation\\Application->bootProvider()
+#26 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}()
+#27 /var/www/vhosts/socojob.com/app.socojob.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(906): array_walk()
+#28 /var/www/vhosts/socojob.com/app.socojob.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#29 /var/www/vhosts/socojob.com/app.socojob.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap()
+#30 /var/www/vhosts/socojob.com/app.socojob.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(153): Illuminate\\Foundation\\Application->bootstrapWith()
+#31 /var/www/vhosts/socojob.com/app.socojob.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(137): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#32 /var/www/vhosts/socojob.com/app.socojob.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#33 /var/www/vhosts/socojob.com/app.socojob.com/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#34 {main}
+"} 
+[2023-07-08 07:57:25] local.INFO: Laravel Microscope - The view file "candidate.profile.general"  
+[2023-07-08 07:57:25] local.INFO: At "App\Http\Controllers\Candidates\CandidateController@editProfile" has some unused variables passed to it:   
+[2023-07-08 07:57:25] local.INFO: array (
+  0 => '$countries',
+)  
+[2023-07-08 07:57:25] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-07-08 07:57:35] local.INFO: Laravel Microscope - The view file "front_web.jobs.index"  
+[2023-07-08 07:57:35] local.INFO: At "App\Http\Controllers\Web\JobController@index" has some unused variables passed to it:   
+[2023-07-08 07:57:35] local.INFO: array (
+  0 => '$jobCategories',
+  1 => '$jobSkills',
+)  
+[2023-07-08 07:57:35] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-07-08 07:57:38] local.INFO: Laravel Microscope - The view file "front_web.jobs.index"  
+[2023-07-08 07:57:38] local.INFO: At "App\Http\Controllers\Web\JobController@index" has some unused variables passed to it:   
+[2023-07-08 07:57:38] local.INFO: array (
+  0 => '$jobCategories',
+  1 => '$jobSkills',
+)  
+[2023-07-08 07:57:38] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-07-08 07:57:46] local.INFO: Laravel Microscope - The view file "front_web.jobs.index"  
+[2023-07-08 07:57:46] local.INFO: At "App\Http\Controllers\Web\JobController@index" has some unused variables passed to it:   
+[2023-07-08 07:57:46] local.INFO: array (
+  0 => '$jobCategories',
+  1 => '$jobSkills',
+)  
+[2023-07-08 07:57:46] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-07-08 07:57:51] local.INFO: Laravel Microscope - The view file "front_web.jobs.index"  
+[2023-07-08 07:57:51] local.INFO: At "App\Http\Controllers\Web\JobController@index" has some unused variables passed to it:   
+[2023-07-08 07:57:51] local.INFO: array (
+  0 => '$jobCategories',
+  1 => '$jobSkills',
+)  
+[2023-07-08 07:57:51] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-07-08 07:58:15] local.INFO: Laravel Microscope - The view file "front_web.home.home"  
+[2023-07-08 07:58:15] local.INFO: At "App\Http\Controllers\Web\HomeController@index" has some unused variables passed to it:   
+[2023-07-08 07:58:15] local.INFO: array (
+  0 => '$categories',
+  1 => '$featuredCompanies',
+  2 => '$allCompanies',
+  3 => '$headerSliders',
+  4 => '$cmsServices',
+  5 => '$color',
+)  
+[2023-07-08 07:58:15] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-07-08 07:58:21] local.INFO: Laravel Microscope - The view file "front_web.jobs.index"  
+[2023-07-08 07:58:21] local.INFO: At "App\Http\Controllers\Web\JobController@index" has some unused variables passed to it:   
+[2023-07-08 07:58:21] local.INFO: array (
+  0 => '$jobCategories',
+  1 => '$jobSkills',
+)  
+[2023-07-08 07:58:21] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-07-08 07:58:26] local.INFO: Laravel Microscope - The view file "front_web.jobs.index"  
+[2023-07-08 07:58:26] local.INFO: At "App\Http\Controllers\Web\JobController@index" has some unused variables passed to it:   
+[2023-07-08 07:58:26] local.INFO: array (
+  0 => '$jobCategories',
+  1 => '$jobSkills',
+)  
+[2023-07-08 07:58:26] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-07-08 07:58:31] local.INFO: Laravel Microscope - The view file "front_web.jobs.index"  
+[2023-07-08 07:58:31] local.INFO: At "App\Http\Controllers\Web\JobController@index" has some unused variables passed to it:   
+[2023-07-08 07:58:31] local.INFO: array (
+  0 => '$jobCategories',
+  1 => '$jobSkills',
+)  
+[2023-07-08 07:58:31] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-07-08 07:58:50] local.INFO: Laravel Microscope - The view file "front_web.jobs.index"  
+[2023-07-08 07:58:50] local.INFO: At "App\Http\Controllers\Web\JobController@index" has some unused variables passed to it:   
+[2023-07-08 07:58:50] local.INFO: array (
+  0 => '$jobCategories',
+  1 => '$jobSkills',
+)  
+[2023-07-08 07:58:50] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-07-08 07:58:55] local.INFO: Laravel Microscope - The view file "front_web.jobs.index"  
+[2023-07-08 07:58:55] local.INFO: At "App\Http\Controllers\Web\JobController@index" has some unused variables passed to it:   
+[2023-07-08 07:58:55] local.INFO: array (
+  0 => '$jobCategories',
+  1 => '$jobSkills',
+)  
+[2023-07-08 07:58:55] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-07-08 08:02:12] local.INFO: Laravel Microscope - The view file "front_web.jobs.index"  
+[2023-07-08 08:02:12] local.INFO: At "App\Http\Controllers\Web\JobController@index" has some unused variables passed to it:   
+[2023-07-08 08:02:12] local.INFO: array (
+  0 => '$jobCategories',
+  1 => '$jobSkills',
+)  
+[2023-07-08 08:02:12] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-07-08 08:02:34] local.INFO: Laravel Microscope - The view file "front_web.jobs.index"  
+[2023-07-08 08:02:34] local.INFO: At "App\Http\Controllers\Web\JobController@index" has some unused variables passed to it:   
+[2023-07-08 08:02:34] local.INFO: array (
+  0 => '$jobCategories',
+  1 => '$jobSkills',
+)  
+[2023-07-08 08:02:34] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-07-08 08:02:39] local.INFO: Laravel Microscope - The view file "front_web.jobs.index"  
+[2023-07-08 08:02:39] local.INFO: At "App\Http\Controllers\Web\JobController@index" has some unused variables passed to it:   
+[2023-07-08 08:02:39] local.INFO: array (
+  0 => '$jobCategories',
+  1 => '$jobSkills',
+)  
+[2023-07-08 08:02:39] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-07-08 15:03:01] local.INFO: Laravel Microscope - The view file "front_web.home.home"  
+[2023-07-08 15:03:01] local.INFO: At "App\Http\Controllers\Web\HomeController@index" has some unused variables passed to it:   
+[2023-07-08 15:03:01] local.INFO: array (
+  0 => '$categories',
+  1 => '$featuredCompanies',
+  2 => '$allCompanies',
+  3 => '$headerSliders',
+  4 => '$cmsServices',
+  5 => '$color',
+)  
+[2023-07-08 15:03:01] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-07-08 15:03:30] local.INFO: Laravel Microscope - The view file "front_web.jobs.index"  
+[2023-07-08 15:03:30] local.INFO: At "App\Http\Controllers\Web\JobController@index" has some unused variables passed to it:   
+[2023-07-08 15:03:30] local.INFO: array (
+  0 => '$jobCategories',
+  1 => '$jobSkills',
+)  
+[2023-07-08 15:03:30] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-07-08 15:04:32] local.INFO: Laravel Microscope - The view file "front_web.jobs.index"  
+[2023-07-08 15:04:32] local.INFO: At "App\Http\Controllers\Web\JobController@index" has some unused variables passed to it:   
+[2023-07-08 15:04:32] local.INFO: array (
+  0 => '$jobCategories',
+  1 => '$jobSkills',
+)  
+[2023-07-08 15:04:32] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-07-08 15:04:40] local.INFO: Laravel Microscope - The view file "front_web.jobs.index"  
+[2023-07-08 15:04:40] local.INFO: At "App\Http\Controllers\Web\JobController@index" has some unused variables passed to it:   
+[2023-07-08 15:04:40] local.INFO: array (
+  0 => '$jobCategories',
+  1 => '$jobSkills',
+)  
+[2023-07-08 15:04:40] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-07-08 15:04:45] local.INFO: Laravel Microscope - The view file "front_web.jobs.index"  
+[2023-07-08 15:04:45] local.INFO: At "App\Http\Controllers\Web\JobController@index" has some unused variables passed to it:   
+[2023-07-08 15:04:45] local.INFO: array (
+  0 => '$jobCategories',
+  1 => '$jobSkills',
+)  
+[2023-07-08 15:04:45] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-07-08 15:08:13] local.INFO: Laravel Microscope - The view file "front_web.jobs.index"  
+[2023-07-08 15:08:13] local.INFO: At "App\Http\Controllers\Web\JobController@index" has some unused variables passed to it:   
+[2023-07-08 15:08:13] local.INFO: array (
+  0 => '$jobCategories',
+  1 => '$jobSkills',
+)  
+[2023-07-08 15:08:13] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-07-08 15:08:16] local.INFO: Laravel Microscope - The view file "front_web.jobs.index"  
+[2023-07-08 15:08:16] local.INFO: At "App\Http\Controllers\Web\JobController@index" has some unused variables passed to it:   
+[2023-07-08 15:08:16] local.INFO: array (
+  0 => '$jobCategories',
+  1 => '$jobSkills',
+)  
+[2023-07-08 15:08:16] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-07-08 15:08:23] local.INFO: Laravel Microscope - The view file "front_web.jobs.index"  
+[2023-07-08 15:08:23] local.INFO: At "App\Http\Controllers\Web\JobController@index" has some unused variables passed to it:   
+[2023-07-08 15:08:23] local.INFO: array (
+  0 => '$jobCategories',
+  1 => '$jobSkills',
+)  
+[2023-07-08 15:08:23] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-07-08 15:08:46] local.INFO: Laravel Microscope - The view file "front_web.jobs.index"  
+[2023-07-08 15:08:46] local.INFO: At "App\Http\Controllers\Web\JobController@index" has some unused variables passed to it:   
+[2023-07-08 15:08:46] local.INFO: array (
+  0 => '$jobCategories',
+  1 => '$jobSkills',
+)  
+[2023-07-08 15:08:46] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-07-08 15:11:49] local.INFO: Laravel Microscope - The view file "candidate.profile.general"  
+[2023-07-08 15:11:49] local.INFO: At "App\Http\Controllers\Candidates\CandidateController@editProfile" has some unused variables passed to it:   
+[2023-07-08 15:11:49] local.INFO: array (
+  0 => '$countries',
+)  
+[2023-07-08 15:11:49] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-07-08 15:12:33] local.INFO: Laravel Microscope - The view file "candidate.profile.resume"  
+[2023-07-08 15:12:33] local.INFO: At "App\Http\Controllers\Candidates\CandidateController@editProfile" has some unused variables passed to it:   
+[2023-07-08 15:12:33] local.INFO: array (
+  0 => '$user',
+  1 => '$countries',
+  2 => '$states',
+  3 => '$cities',
+  4 => '$candidateSkills',
+  5 => '$candidateLanguage',
+)  
+[2023-07-08 15:12:33] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-07-08 15:12:40] local.INFO: Laravel Microscope - The view file "candidate.profile.general"  
+[2023-07-08 15:12:40] local.INFO: At "App\Http\Controllers\Candidates\CandidateController@editProfile" has some unused variables passed to it:   
+[2023-07-08 15:12:40] local.INFO: array (
+  0 => '$countries',
+)  
+[2023-07-08 15:12:40] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-07-08 15:13:23] local.INFO: Laravel Microscope - The view file "front_web.jobs.index"  
+[2023-07-08 15:13:23] local.INFO: At "App\Http\Controllers\Web\JobController@index" has some unused variables passed to it:   
+[2023-07-08 15:13:23] local.INFO: array (
+  0 => '$jobCategories',
+  1 => '$jobSkills',
+)  
+[2023-07-08 15:13:23] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-07-08 15:13:39] local.INFO: Laravel Microscope - The view file "front_web.jobs.index"  
+[2023-07-08 15:13:39] local.INFO: At "App\Http\Controllers\Web\JobController@index" has some unused variables passed to it:   
+[2023-07-08 15:13:39] local.INFO: array (
+  0 => '$jobCategories',
+  1 => '$jobSkills',
+)  
+[2023-07-08 15:13:39] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-07-08 15:13:54] local.INFO: Laravel Microscope - The view file "candidate.profile.general"  
+[2023-07-08 15:13:54] local.INFO: At "App\Http\Controllers\Candidates\CandidateController@editProfile" has some unused variables passed to it:   
+[2023-07-08 15:13:54] local.INFO: array (
+  0 => '$countries',
+)  
+[2023-07-08 15:13:54] local.INFO: If you do not see these variables passed in a controller, look in view composers.  

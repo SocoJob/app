@@ -25,4 +25,6 @@ tests
 resources/views/front_web/layouts/footer2.blade.php
 /vendor/
 .DS_Store
-/storage/
+storage/framework/cache
+cache
+storage/logs/
