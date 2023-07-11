@@ -31,8 +31,8 @@
         data-turbolinks-eval="false" data-turbo-eval="false">
 </script>
 <script src="https://js.stripe.com/v3/"></script>
-<script src="{{ mix('js/third-party.js') }}"></script>
-<script src="{{ mix('js/pages.js') }}"></script>
+<script src="{{ asset(mix('js/third-party.js')) }}"></script>
+<script src="{{ asset(mix('js/pages.js')) }}"></script>
 <body class="overflow-x-hidden">
 <div class="d-flex flex-column flex-root">
     <div class="d-flex flex-column flex-column-fluid">

@@ -40,7 +40,7 @@
             data-turbolinks-eval="false" data-turbo-eval="false">
     </script>
     {{--    <script src="{{ asset(mix('js/third_party.js')) }}"></script>--}}
-    <script src="{{ mix('js/third-party.js') }}"></script>
+    <script src="{{ asset(mix('js/third-party.js')) }}"></script>
 
     {{--    <script src="{{ asset('assets/js/third-party.js') }}"></script>--}}
     <script src="{{ asset(mix('js/pages.js')) }}"></script>
