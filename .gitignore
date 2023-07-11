@@ -8,6 +8,7 @@ public/hot
 public/storage/
 storage/*.key
 vendor
+vendor/
 .env
 /public/assets/img/
 database/migrations/

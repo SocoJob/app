@@ -12,19 +12,19 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700"/>
     <!--end::Fonts-->
 
-    {{--    <link rel="stylesheet" type="text/css" href="{{ mix('css/third_party.css') }}">--}}
+    {{--    <link rel="stylesheet" type="text/css" href="{{ asset(mix('css/third_party.css')) }}">--}}
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/third-party.css') }}">
     @if(getLoggedInUser()->theme_mode)
         {{--        <link rel="stylesheet" href="{{ asset('assets/css/table-dark.css') }}">--}}
         {{--        <link rel="stylesheet" href="{{ asset('backend/style.dark.bundle.css') }}">--}}
-        {{--        <link rel="stylesheet" type="text/css" href="{{ mix('assets/css/dark-main.css') }}">--}}
+        {{--        <link rel="stylesheet" type="text/css" href="{{ asset(mix('assets/css/dark-main.css')) }}">--}}
         <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/custom-dark.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.dark.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ asset('css/plugins.dark.css') }}">
     @else
         {{--        <link rel="stylesheet" href="{{ asset('assets/css/livewire-table.css') }}">--}}
         {{--        <link rel="stylesheet" href="{{ asset('assets/css/style.bundle.css')}}"/>--}}
-        {{--        <link rel="stylesheet" type="text/css" href="{{ mix('assets/css/main.css') }}">--}}
+        {{--        <link rel="stylesheet" type="text/css" href="{{ asset(mix('assets/css/main.css')) }}">--}}
 
         <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ asset('css/plugins.css') }}">
@@ -39,11 +39,11 @@
     <script src="https://cdn.jsdelivr.net/gh/livewire/turbolinks@v0.1.x/dist/livewire-turbolinks.js"
             data-turbolinks-eval="false" data-turbo-eval="false">
     </script>
-    {{--    <script src="{{ mix('js/third_party.js') }}"></script>--}}
+    {{--    <script src="{{ asset(mix('js/third_party.js')) }}"></script>--}}
     <script src="{{ mix('js/third-party.js') }}"></script>
 
     {{--    <script src="{{ asset('assets/js/third-party.js') }}"></script>--}}
-    <script src="{{ mix('js/pages.js') }}"></script>
+    <script src="{{ asset(mix('js/pages.js')) }}"></script>
 
 </head>
 <!--end::Head-->

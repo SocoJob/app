@@ -11,6 +11,6 @@
     </div>
 @endsection
 {{--@push('scripts')--}}
-{{--    <script src="{{mix('assets/js/jobs/job_datatable_admin.js')}}"></script>--}}
+{{--    <script src="{{asset(mix('assets/js/jobs/job_datatable_admin.js'))}}"></script>--}}
 {{--@endpush--}}
 
