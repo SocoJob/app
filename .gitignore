@@ -6,6 +6,8 @@
 node_modules
 public/hot
 public/storage/
+storage/
+storage
 storage/*.key
 vendor
 vendor/
@@ -29,3 +31,4 @@ resources/views/front_web/layouts/footer2.blade.php
 storage/framework/cache
 cache
 storage/logs/
+.DS_Store

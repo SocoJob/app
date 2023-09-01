@@ -167,6 +167,13 @@ function getLogoUrl()
     return $appLogo->logo_url;
 }
 
+function getUrlRoute($route)
+{
+    
+
+    return route($route);
+}
+
 function getAppName()
 {
     static $appName;

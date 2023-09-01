@@ -327,6 +327,8 @@ class User extends Authenticatable implements HasMedia
         $this->notify(new UserVerifyNotification($this));  //pass the currently logged in user to the notification class
     }
 
+    
+
     /**
      * Send the password reset notification.
      *

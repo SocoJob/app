@@ -11,6 +11,8 @@ use Rappasoft\LaravelLivewireTables\Views\Columns\BooleanColumn;
 use Rappasoft\LaravelLivewireTables\Views\Filters\MultiSelectFilter;
 use Rappasoft\LaravelLivewireTables\Views\Filters\SelectFilter;
 use Illuminate\Support\Facades\JavaScript;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\UserAccountVerification;
 
 class CandidateTable extends LivewireTableComponent
 {
@@ -95,6 +97,11 @@ class CandidateTable extends LivewireTableComponent
         $candidate = Candidate::findOrFail($candidateId);
         $candidate->user->is_verified = $newValue;
         $candidate->user->save();
+        if($candidate->user->is_verified){
+            Mail::to($candidate->user)->send(new UserAccountVerification($candidate));
+        }
+        
+
         $this->emit('verificationToggled','Se actualizó correctamente');
         
     }
