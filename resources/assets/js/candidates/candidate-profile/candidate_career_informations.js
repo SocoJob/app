@@ -414,7 +414,7 @@ function loadCandidateCareerInformationData() {
 
 window.changeCountry = function (country, state) {
     $.ajax({
-        url: url('states-list'),
+        url: route('states-list'),
         type: 'get',
         dataType: 'json',
         data: {postal: $(country).val()},

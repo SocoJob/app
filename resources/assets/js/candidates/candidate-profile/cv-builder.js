@@ -27,7 +27,7 @@ function loadCVBuilderData() {
 
     $('#candidateCountryId').on('change', function () {
         $.ajax({
-            url: url('states-list'),
+            url: route('states-list'),
             type: 'get',
             dataType: 'json',
             data: { postal: $(this).val() },

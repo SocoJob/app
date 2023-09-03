@@ -1,7 +1,7 @@
 
 listenChange('#countryId', function (){
     $.ajax({
-        url: url('states-list'),
+        url: route('states-list'),
         type: 'get',
         dataType: 'json',
         data: { postal: $(this).val() },
