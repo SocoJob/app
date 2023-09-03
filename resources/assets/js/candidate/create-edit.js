@@ -293,7 +293,7 @@ listenHiddenBsModal('#createCandidateCityModal', function () {
 
 $('#countryId').on('change', function () {
     $.ajax({
-        url: asset(route('states-list')),
+        url: url('states-list'),
         type: 'get',
         dataType: 'json',
         data: { postal: $(this).val() },
