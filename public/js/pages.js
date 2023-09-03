@@ -1887,7 +1887,7 @@
           $("#stateID").val("").trigger("change"), resetModalForm("#createCandidateCityForm", "#cityValidationErrorsBox")
         })), $("#countryId").on("change", (function () {
           $.ajax({
-            url: route("states-list"),
+            url: url("states-list"),
             type: "get",
             dataType: "json",
             data: {
@@ -2646,7 +2646,7 @@
             $("input[type=radio][name=immediate_available]").trigger("change")
           }), 300), $("#countryId").on("change", (function () {
             $.ajax({
-              url: route("states-list"),
+              url: url("states-list"),
               type: "get",
               dataType: "json",
               data: {
@@ -2967,7 +2967,7 @@
           }))
         })), window.changeCountry = function (e, t) {
           $.ajax({
-            url: route("states-list"),
+            url: url("states-list"),
             type: "get",
             dataType: "json",
             data: {
@@ -3093,7 +3093,7 @@
             placeholder: "Select Skill"
           }), $("#candidateCountryId").on("change", (function () {
             $.ajax({
-              url: route("states-list"),
+              url: url("states-list"),
               type: "get",
               dataType: "json",
               data: {
@@ -3574,7 +3574,7 @@
           }));
           $("#countryId").on("change", (function () {
             $.ajax({
-              url: route("states-list"),
+              url: url("states-list"),
               type: "get",
               dataType: "json",
               data: {
@@ -4761,7 +4761,7 @@
       6917: () => {
         listenChange("#countryId", (function () {
           $.ajax({
-            url: route("states-list"),
+            url: url("states-list"),
             type: "get",
             dataType: "json",
             data: {

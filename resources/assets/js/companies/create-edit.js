@@ -143,7 +143,7 @@ function loadCreateEditCompanyData() {
     
     $('#countryId').on('change', function () {
         $.ajax({
-            url: route('states-list'),
+            url: url('states-list'),
             type: 'get',
             dataType: 'json',
             data: { postal: $(this).val() },
