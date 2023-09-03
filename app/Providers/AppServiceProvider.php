@@ -8,6 +8,7 @@ use Illuminate\Support\ServiceProvider;
 use Laravel\Cashier\Cashier;
 use Illuminate\Support\Facades\Lang;
 use Illuminate\Pagination\PaginationTranslator;
+use Illuminate\Support\Facades\URL;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -34,6 +35,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        if (app()->environment('remote') || env('FORCE_HTTPS',false)) {
+            URL::forceScheme('https');
+        }
         \Illuminate\Pagination\Paginator::useBootstrap();
         Schema::defaultStringLength(191);
       
