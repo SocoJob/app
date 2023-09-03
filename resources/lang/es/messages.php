@@ -1,4 +1,5 @@
-<?php return array (
+<?php 
+return array (
   'language-name' => 'es',
   'fileName' => 'messages.php',
   'dashboard' => 'Tablero',
