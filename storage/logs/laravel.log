@@ -5474,3 +5474,15 @@ Content-Transfer-Encoding: quoted-printable
 #76 /Users/fjalonsoo/Library/CloudStorage/GoogleDrive-moreno84@gmail.com/Unidades compartidas/SocoJob aplicación/5. GitContent/server.php(21): require_once('/Users/fjalonso...')
 #77 {main}
 "} 
+[2023-09-03 09:26:52] local.ERROR: Class "App\Http\Middleware\App" not found {"exception":"[object] (Error(code: 0): Class \"App\\Http\\Middleware\\App\" not found at /Users/fjalonsoo/Library/CloudStorage/GoogleDrive-moreno84@gmail.com/Unidades compartidas/SocoJob aplicación/5. GitContent/app/Http/Middleware/HttpRedirect.php:19)
+[stacktrace]
+#0 /Users/fjalonsoo/Library/CloudStorage/GoogleDrive-moreno84@gmail.com/Unidades compartidas/SocoJob aplicación/5. GitContent/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): App\\Http\\Middleware\\HttpRedirect->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#1 /Users/fjalonsoo/Library/CloudStorage/GoogleDrive-moreno84@gmail.com/Unidades compartidas/SocoJob aplicación/5. GitContent/vendor/fideloper/proxy/src/TrustProxies.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#2 /Users/fjalonsoo/Library/CloudStorage/GoogleDrive-moreno84@gmail.com/Unidades compartidas/SocoJob aplicación/5. GitContent/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#3 /Users/fjalonsoo/Library/CloudStorage/GoogleDrive-moreno84@gmail.com/Unidades compartidas/SocoJob aplicación/5. GitContent/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#4 /Users/fjalonsoo/Library/CloudStorage/GoogleDrive-moreno84@gmail.com/Unidades compartidas/SocoJob aplicación/5. GitContent/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#5 /Users/fjalonsoo/Library/CloudStorage/GoogleDrive-moreno84@gmail.com/Unidades compartidas/SocoJob aplicación/5. GitContent/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#6 /Users/fjalonsoo/Library/CloudStorage/GoogleDrive-moreno84@gmail.com/Unidades compartidas/SocoJob aplicación/5. GitContent/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#7 /Users/fjalonsoo/Library/CloudStorage/GoogleDrive-moreno84@gmail.com/Unidades compartidas/SocoJob aplicación/5. GitContent/server.php(21): require_once('/Users/fjalonso...')
+#8 {main}
+"} 
