@@ -48,16 +48,16 @@
                     {{ Form::label('country', __('messages.company.country').':', ['class' => 'form-label']) }}
                     <span class="required"></span>
                     {{ Form::select('country_id',  $data['countries'], null, ['class' => 'form-select ','id'=>'countryId','required','placeholder' => __('messages.company.select_country'),'required']) }}
+                </div> 
+                <div class="col-xl-6 col-md-6 col-sm-12 mb-5">
+                    {{ Form::label('state', __('messages.company.state').':', ['class' => 'form-label']) }} <small>Requerido solo para España</small>
+                    <span class="required"></span>
+                    {{ Form::select('state_id', (isset($states) && $states!=null?$states:[]), null, ['id'=>'stateId','class' => 'form-select','required_if:countryId,205','placeholder' => __('messages.company.select_state'),'required_if:countryId,205']) }}
                 </div>
                 <div class="col-xl-6 col-md-6 col-sm-12 mb-5">
-                    {{ Form::label('state', __('messages.company.state').':', ['class' => 'form-label']) }}
+                    {{ Form::label('city', __('messages.company.city').':', ['class' => 'form-label']) }} <small>Requerido solo para España</small>
                     <span class="required"></span>
-                    {{ Form::select('state_id', (isset($states) && $states!=null?$states:[]), null, ['id'=>'stateId','class' => 'form-select','required','placeholder' => __('messages.company.select_state'),'required']) }}
-                </div>
-                <div class="col-xl-6 col-md-6 col-sm-12 mb-5">
-                    {{ Form::label('city', __('messages.company.city').':', ['class' => 'form-label']) }}
-                    <span class="required"></span>
-                    {{ Form::select('city_id',(isset($cities) && $cities!=null?$cities:[]), null,['class' => 'form-select ','id'=>'cityId','required','placeholder' => __('messages.company.select_city'),'required']) }}
+                    {{ Form::select('city_id',(isset($cities) && $cities!=null?$cities:[]), null,['class' => 'form-select ','id'=>'cityId','required_if:countryId,205','placeholder' => __('messages.company.select_city'),'required_if:countryId,205']) }}
                 </div>
                 <div class="col-sm-6 mb-5 mobile-itel-width">
                     {{ Form::label('phone',__('messages.candidate.phone').(':'),['class' => 'form-label']) }}

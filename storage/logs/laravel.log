@@ -5486,3 +5486,104 @@ Content-Transfer-Encoding: quoted-printable
 #7 /Users/fjalonsoo/Library/CloudStorage/GoogleDrive-moreno84@gmail.com/Unidades compartidas/SocoJob aplicación/5. GitContent/server.php(21): require_once('/Users/fjalonso...')
 #8 {main}
 "} 
+[2023-09-03 10:40:34] local.INFO: Laravel Microscope - The view file "candidate.profile.general"  
+[2023-09-03 10:40:34] local.INFO: At "App\Http\Controllers\Candidates\CandidateController@editProfile" has some unused variables passed to it:   
+[2023-09-03 10:40:34] local.INFO: array (
+  0 => '$countries',
+)  
+[2023-09-03 10:40:34] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-09-03 10:40:43] local.INFO: Laravel Microscope - The view file "candidate.profile.general"  
+[2023-09-03 10:40:43] local.INFO: At "App\Http\Controllers\Candidates\CandidateController@editProfile" has some unused variables passed to it:   
+[2023-09-03 10:40:43] local.INFO: array (
+  0 => '$countries',
+)  
+[2023-09-03 10:40:43] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-09-03 10:40:45] local.INFO: Laravel Microscope - The view file "candidate.profile.general"  
+[2023-09-03 10:40:45] local.INFO: At "App\Http\Controllers\Candidates\CandidateController@editProfile" has some unused variables passed to it:   
+[2023-09-03 10:40:45] local.INFO: array (
+  0 => '$countries',
+)  
+[2023-09-03 10:40:45] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-09-03 10:40:46] local.INFO: Laravel Microscope - The view file "candidate.profile.general"  
+[2023-09-03 10:40:46] local.INFO: At "App\Http\Controllers\Candidates\CandidateController@editProfile" has some unused variables passed to it:   
+[2023-09-03 10:40:46] local.INFO: array (
+  0 => '$countries',
+)  
+[2023-09-03 10:40:46] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-09-03 10:40:46] local.INFO: Laravel Microscope - The view file "candidate.profile.general"  
+[2023-09-03 10:40:46] local.INFO: At "App\Http\Controllers\Candidates\CandidateController@editProfile" has some unused variables passed to it:   
+[2023-09-03 10:40:46] local.INFO: array (
+  0 => '$countries',
+)  
+[2023-09-03 10:40:46] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-09-03 10:43:01] local.INFO: Laravel Microscope - The view file "candidate.profile.general"  
+[2023-09-03 10:43:01] local.INFO: At "App\Http\Controllers\Candidates\CandidateController@editProfile" has some unused variables passed to it:   
+[2023-09-03 10:43:01] local.INFO: array (
+  0 => '$countries',
+)  
+[2023-09-03 10:43:01] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-09-19 18:10:29] local.INFO: Laravel Microscope - The view file "front_web.home.home"  
+[2023-09-19 18:10:29] local.INFO: At "App\Http\Controllers\Web\HomeController@index" has some unused variables passed to it:   
+[2023-09-19 18:10:29] local.INFO: array (
+  0 => '$categories',
+  1 => '$featuredCompanies',
+  2 => '$allCompanies',
+  3 => '$headerSliders',
+  4 => '$cmsServices',
+  5 => '$color',
+)  
+[2023-09-19 18:10:29] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-09-19 18:10:36] local.INFO: Laravel Microscope - The view file "candidate.profile.general"  
+[2023-09-19 18:10:36] local.INFO: At "App\Http\Controllers\Candidates\CandidateController@editProfile" has some unused variables passed to it:   
+[2023-09-19 18:10:36] local.INFO: array (
+  0 => '$countries',
+)  
+[2023-09-19 18:10:36] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-09-19 19:15:38] local.INFO: Laravel Microscope - The view file "candidate.profile.general"  
+[2023-09-19 19:15:38] local.INFO: At "App\Http\Controllers\Candidates\CandidateController@editProfile" has some unused variables passed to it:   
+[2023-09-19 19:15:38] local.INFO: array (
+  0 => '$countries',
+)  
+[2023-09-19 19:15:38] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-09-19 19:16:23] local.INFO: Laravel Microscope - The view file "candidate.profile.general"  
+[2023-09-19 19:16:23] local.INFO: At "App\Http\Controllers\Candidates\CandidateController@editProfile" has some unused variables passed to it:   
+[2023-09-19 19:16:23] local.INFO: array (
+  0 => '$countries',
+)  
+[2023-09-19 19:16:23] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-09-19 19:19:45] local.INFO: Laravel Microscope - The view file "candidate.profile.general"  
+[2023-09-19 19:19:45] local.INFO: At "App\Http\Controllers\Candidates\CandidateController@editProfile" has some unused variables passed to it:   
+[2023-09-19 19:19:45] local.INFO: array (
+  0 => '$countries',
+)  
+[2023-09-19 19:19:45] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-09-19 19:20:12] local.INFO: Laravel Microscope - The view file "candidate.profile.general"  
+[2023-09-19 19:20:12] local.INFO: At "App\Http\Controllers\Candidates\CandidateController@editProfile" has some unused variables passed to it:   
+[2023-09-19 19:20:12] local.INFO: array (
+  0 => '$countries',
+)  
+[2023-09-19 19:20:12] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-09-19 19:20:16] local.INFO: Laravel Microscope - The view file "candidate.profile.general"  
+[2023-09-19 19:20:16] local.INFO: At "App\Http\Controllers\Candidates\CandidateController@editProfile" has some unused variables passed to it:   
+[2023-09-19 19:20:16] local.INFO: array (
+  0 => '$countries',
+)  
+[2023-09-19 19:20:16] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-09-19 19:25:56] local.INFO: Laravel Microscope - The view file "candidate.profile.general"  
+[2023-09-19 19:25:56] local.INFO: At "App\Http\Controllers\Candidates\CandidateController@editProfile" has some unused variables passed to it:   
+[2023-09-19 19:25:56] local.INFO: array (
+  0 => '$countries',
+)  
+[2023-09-19 19:25:56] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-09-19 19:26:04] local.INFO: Laravel Microscope - The view file "candidate.profile.general"  
+[2023-09-19 19:26:04] local.INFO: At "App\Http\Controllers\Candidates\CandidateController@editProfile" has some unused variables passed to it:   
+[2023-09-19 19:26:04] local.INFO: array (
+  0 => '$countries',
+)  
+[2023-09-19 19:26:04] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-09-19 19:28:14] local.INFO: Laravel Microscope - The view file "candidate.profile.general"  
+[2023-09-19 19:28:14] local.INFO: At "App\Http\Controllers\Candidates\CandidateController@editProfile" has some unused variables passed to it:   
+[2023-09-19 19:28:14] local.INFO: array (
+  0 => '$countries',
+)  
+[2023-09-19 19:28:14] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
