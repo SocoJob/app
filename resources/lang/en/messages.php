@@ -791,7 +791,7 @@
     'salary_currency' => 'Salario Moneda',
     'address' => 'Habla a',
     'immediate_available' => 'Disponibilidad inmediata',
-    'not_immediate_available' => 'No Disponible',
+    'not_immediate_available' => 'No disponible',
     'is_active' => 'Es Active',
     'is_verified' => 'Es Verified',
     'in_year' => 'En años',

@@ -82,11 +82,11 @@
                     </span>
                 </div>
                 <div class="col-xl-6 col-md-6 col-sm-12 mb-5">
-                    {{ Form::label('career_level', __('messages.candidate.career_level').':', ['class' => 'form-label']) }}
+                    {{ Form::label('career_level', __('messages.candidate.career_level').':', ['class' => 'form-label']) }} <span class="required"></span>
                     {{ Form::select('career_level_id',  $data['careerLevel'], isset($user->candidate->career_level_id) ? $user->candidate->career_level_id : null,['class' => 'form-select','id' => 'careerLevelId', 'placeholder'=> __('messages.company.select_career_level'),'required']) }}
                 </div>
                 {{--<div class="col-xl-6 col-md-6 col-sm-12 mb-5">
-                        {{ Form::label('experience', __('messages.candidate.experience').':', ['class' => 'form-label']) }}
+                        {{ Form::label('experience', __('messages.candidate.experience').':', ['class' => 'form-label']) }} 
                 {{ Form::text('experience', isset($user->candidate->experience) ? $user->candidate->experience : null,['class' => 'form-control','min' => '0', 'max' => '15','placeholder'=>__('messages.candidate.experience'), 'onkeyup' => 'if (/\D/g.test(this.value)) this.value = this.value.replace(/\D/g,"")','required']) }}
             </div>--}}
             <div class="col-xl-6 col-md-6 col-sm-12 mb-5">
@@ -100,14 +100,14 @@
             </div>
             <div class="col-xl-12 col-md-12 col-sm-12 mb-5 ">
                 <div class="col-xl-4 col-md-4 col-sm-4">
-                    {{ Form::label('immediate_available', __('messages.candidate.immediate_available').':', ['class' => 'form-label']) }}
+                    {{ Form::label('immediate_available', __('messages.candidate.immediate_available').':', ['class' => 'form-label']) }} <span class="required"></span>
                     <br>
                     <span class="form-check is-valid form-check-sm">
-                        <label class="form-label ">{{ __('messages.candidate.immediate_available')}}</label>&nbsp;&nbsp;
-                        {{ Form::radio('immediate_available', '1', isset($user->candidate->immediate_available) ? $user->candidate->immediate_available == 1 : true, ['class' => 'form-check-input','id'=>'available']) }} &nbsp;
+                        <label class="form-label ">{{ __('messages.candidate.immediate_available')}}</label>&nbsp;
+                        {{ Form::radio('immediate_available', '1', isset($user->candidate->immediate_available) ? $user->candidate->immediate_available == 1 : true, ['class' => 'form-check-input','id'=>'available', 'required' => 'required']) }} &nbsp;
                         <br>
-                        <label class="form-label ">{{ __('messages.candidate.not_immediate_available') }}</label>
-                        {{ Form::radio('immediate_available', '0', isset($user->candidate->immediate_available) ? $user->candidate->immediate_available == 0 : true, ['class' => 'form-check-input','id'=>'not_available']) }}
+                        <label class="form-label ">{{ ( __('messages.candidate.not_immediate_available')) }}</label>
+                        {{ Form::radio('immediate_available', '0', isset($user->candidate->immediate_available) ? $user->candidate->immediate_available == 0 : true, ['class' => 'form-check-input','id'=>'not_available', 'required' => 'required']) }}
                     </span>
                 </div>
                 <div class="col-xl-6 col-md-6 col-sm-6 available-at">
