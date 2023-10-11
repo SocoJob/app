@@ -33,3 +33,4 @@ storage/framework/cache
 *cache*
 storage/logs/
 storage/framework/cache/
+.DS_Store
