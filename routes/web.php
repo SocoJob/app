@@ -737,7 +737,7 @@ Route::group([
     });
 
 // candidates route without name space
-Route::group(['middleware' => ['auth', 'role:Candidate', 'xss', 'verified.user', 'setLanguage'/*,'verify.employer'*/], 'prefix' => 'candidate'], function () {
+Route::group(['middleware' => ['auth', 'role:Candidate', 'xss', 'verified.user', 'setLanguage','verify.company'], 'prefix' => 'candidate'], function () {
 
     // Read notification
 //    Route::post('/notification/{notification}/read',
