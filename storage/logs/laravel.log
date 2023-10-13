@@ -12595,3 +12595,55 @@ Did you mean one of these?
   0 => '$url',
 )  
 [2023-10-13 09:51:30] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-10-13 10:11:06] local.INFO: Laravel Microscope - The view file "front_web.jobs.job_details"  
+[2023-10-13 10:11:06] local.INFO: At "App\Http\Controllers\Web\JobController@jobDetails" has some unused variables passed to it:   
+[2023-10-13 10:11:06] local.INFO: array (
+  0 => '$url',
+)  
+[2023-10-13 10:11:06] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-10-13 10:11:16] local.INFO: Laravel Microscope - The view file "livewire.applied-jobs"  
+[2023-10-13 10:11:16] local.INFO: At "Livewire\Controllers\HttpConnectionHandler" has some unused variables passed to it:   
+[2023-10-13 10:11:16] local.INFO: array (
+  0 => '$errors',
+  1 => '$_instance',
+  2 => '$page',
+  3 => '$paginators',
+)  
+[2023-10-13 10:11:16] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-10-13 10:11:28] local.INFO: Laravel Microscope - The view file "front_web.jobs.index"  
+[2023-10-13 10:11:28] local.INFO: At "App\Http\Controllers\Web\JobController@index" has some unused variables passed to it:   
+[2023-10-13 10:11:28] local.INFO: array (
+  0 => '$jobCategories',
+  1 => '$jobSkills',
+)  
+[2023-10-13 10:11:28] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-10-13 10:11:30] local.INFO: Laravel Microscope - The view file "front_web.jobs.job_details"  
+[2023-10-13 10:11:30] local.INFO: At "App\Http\Controllers\Web\JobController@jobDetails" has some unused variables passed to it:   
+[2023-10-13 10:11:30] local.INFO: array (
+  0 => '$url',
+)  
+[2023-10-13 10:11:30] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-10-13 10:11:36] local.INFO: Laravel Microscope - The view file "front_web.jobs.apply_job.apply_job"  
+[2023-10-13 10:11:36] local.INFO: At "App\Http\Controllers\Web\JobApplicationController@showApplyJobForm" has some unused variables passed to it:   
+[2023-10-13 10:11:36] local.INFO: array (
+  0 => '$default_resume',
+)  
+[2023-10-13 10:11:36] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-10-13 10:33:18] local.INFO: Laravel Microscope - The view file "front_web.jobs.apply_job.apply_job"  
+[2023-10-13 10:33:18] local.INFO: At "App\Http\Controllers\Web\JobApplicationController@showApplyJobForm" has some unused variables passed to it:   
+[2023-10-13 10:33:18] local.INFO: array (
+  0 => '$default_resume',
+)  
+[2023-10-13 10:33:18] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-10-13 10:33:20] local.INFO: Laravel Microscope - The view file "front_web.jobs.job_details"  
+[2023-10-13 10:33:20] local.INFO: At "App\Http\Controllers\Web\JobController@jobDetails" has some unused variables passed to it:   
+[2023-10-13 10:33:20] local.INFO: array (
+  0 => '$url',
+)  
+[2023-10-13 10:33:20] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-10-13 10:33:24] local.INFO: Laravel Microscope - The view file "front_web.jobs.apply_job.apply_job"  
+[2023-10-13 10:33:24] local.INFO: At "App\Http\Controllers\Web\JobApplicationController@showApplyJobForm" has some unused variables passed to it:   
+[2023-10-13 10:33:24] local.INFO: array (
+  0 => '$default_resume',
+)  
+[2023-10-13 10:33:24] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
