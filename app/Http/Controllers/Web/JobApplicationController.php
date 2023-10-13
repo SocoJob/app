@@ -31,12 +31,13 @@ class JobApplicationController extends AppBaseController
      */
     public function showApplyJobForm($jobId)
     {
+        print("aqui".$jobId);
         $data = $this->jobApplicationRepository->showApplyJobForm($jobId);
 
         if (count($data['resumes']) <= 0) {
             return redirect()->back()->with('warning', __('messages.flash.there_are_no'));
         }
-
+        print("aqui2");
         return view('front_web.jobs.apply_job.apply_job')->with($data);
     }
 
