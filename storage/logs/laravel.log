@@ -12583,3 +12583,9 @@ Did you mean one of these?
   0 => '$url',
 )  
 [2023-10-13 09:41:19] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
+[2023-10-13 09:46:02] local.INFO: Laravel Microscope - The view file "front_web.jobs.job_details"  
+[2023-10-13 09:46:02] local.INFO: At "App\Http\Controllers\Web\JobController@jobDetails" has some unused variables passed to it:   
+[2023-10-13 09:46:02] local.INFO: array (
+  0 => '$url',
+)  
+[2023-10-13 09:46:02] local.INFO: If you do not see these variables passed in a controller, look in view composers.  
